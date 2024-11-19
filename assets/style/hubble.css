@@ -1,0 +1,52 @@
+header .landingSec {
+  background-image: url(../image/imageMission/hubble/backgroundhubble.webp);
+}
+header .landingSec .gradient-overlay {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.6) 60%, rgba(5, 15, 24, 0.9) 85%, #050f18 100%);
+}
+/*Contenu*/
+section .container .row .visuelle {
+  margin-bottom: 5rem;
+}
+section .container .row .visuelle img {
+  width: 100%;
+}
+section .container .row .contenuGauche {
+  padding-right: 5%;
+}
+section .container .row .contenuDroite {
+  padding-left: 5%;
+}
+/*  Gallerie */
+.image-container img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.435);
+  /* Ombre */
+  border: 1px solid white;
+}
+/* Espace entre les images */
+.spacing-bottom {
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 1000px) {
+  .img-space {
+    height: 509px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .img-space {
+    height: 360px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .img-space1 {
+    margin-top: 25px ;
+  }
+}
